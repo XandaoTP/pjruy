@@ -88,7 +88,7 @@ export function HomeView() {
                         <h3>Hotéis</h3>
                         <div>
                         {hoteis.map(hotel =>(
-                            <img key={hotel.id} src={hotel.img alt='as'}/>
+                            <img key={hotel.id} src={hotel.img } alt='as'/>
                             ))
                         }
                         </div>
