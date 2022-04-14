@@ -1,5 +1,5 @@
 
-import { Button, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { FormHotel } from "../../components/FormHotel";
 import { Layout } from "../../components/Layout";
 import styled from 'styled-components'
@@ -88,7 +88,7 @@ export function HomeView() {
                         <h3>Hotéis</h3>
                         <div>
                         {hoteis.map(hotel =>(
-                            <img key={hotel.id} src={hotel.img}/>
+                            <img key={hotel.id} src={hotel.img alt='as'}/>
                             ))
                         }
                         </div>
